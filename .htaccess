@@ -1,8 +1,4 @@
 
-# BEGIN WordPress
-# Las directivas (líneas) entre «BEGIN WordPress» y «END WordPress» son
-# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
-# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
 
 RewriteEngine On
 
@@ -12,5 +8,3 @@ RewriteCond %{REQUEST_FILENAME} !-l
 
 RewriteRule ^(.*)$ index.php/?url=$1 [L,QSA]
 ErrorDocument 404 ./erors/404.php
-
-# END WordPress

@@ -3,10 +3,10 @@ interface iControl {
     public function GET();
     public function POST();
 }
-class Controll {
+class Controll implements iControl {
     function __construct()
     {
-        echo "Test";
+        
         if(!empty($_GET)){
             $this->GET();
         }

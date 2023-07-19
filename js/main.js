@@ -7,4 +7,6 @@ function loadScript(url){
     head.appendChild(script);
 }
 
+
+
 loadScript("navbar");

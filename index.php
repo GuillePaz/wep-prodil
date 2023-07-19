@@ -1,3 +1,4 @@
+<?php include_once("./core/constantes.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +11,7 @@
     
     <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"></script>
 
-    <script src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
 </head>
 <body>
 
@@ -18,7 +19,7 @@
 
 
 
- include_once("navbar.html");
+ include_once("navbar.php");
  include_once("core/core.php");
     
    

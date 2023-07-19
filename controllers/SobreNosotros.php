@@ -2,8 +2,12 @@
 
 include_once("./core/controll.php");
 
-class Home extends Controll{
-    
+class SobreNosotros extends Controll{
+    function __construct()
+    {
+        parent::__construct();
+        echo "sobre ";
+    }
     public function piso(){
         echo "Piso";
     }
