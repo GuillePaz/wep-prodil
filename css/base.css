@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Saluti;
+    src: url('./assets/fonts/Saliti Bold.otf');
+}
+
+body{
+    padding-top: 7.5rem;
+    background-color: #747373;
+
+}
+#logo-prodil{
+    font-family: Saluti;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.08em;
+}
+
+#logo-prodil h1{
+    
+    padding: 6pt 30pt;
+background-color: #FCBF0F ;
+}
+
+#logo-prodil span {
+
+}
+#logo-prodil h1,span{
+    margin: 0;
+}

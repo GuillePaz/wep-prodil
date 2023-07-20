@@ -5,8 +5,9 @@ class Uri {
     function __construct()
     {   
         $uri = "";
-        if(isset($_GET["url"])){
-            $uri = explode("/",$_GET["url"]);
+        if(isset($_GET["weawzahzcurqvznyqhdxtdiethizdh"])){ // get de la variable en .htaccess
+            $uri = explode("/",$_GET["weawzahzcurqvznyqhdxtdiethizdh"]);
+            unset($_GET["weawzahzcurqvznyqhdxtdiethizdh"]);
         }
         
         $page = $uri[0] ?? null;

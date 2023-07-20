@@ -2,11 +2,13 @@
 interface iControl {
     public function GET();
     public function POST();
+    public function RENDER($f);
 }
 class Controll implements iControl {
     function __construct()
     {
         
+
         if(!empty($_GET)){
             $this->GET();
         }
@@ -22,6 +24,10 @@ class Controll implements iControl {
 
     function POST(){
         
+    }
+    function RENDER($f){
+        $file = "./view/".$f.".php";
+        include($file);
     }
 }
 
