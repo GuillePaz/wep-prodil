@@ -1,5 +1,17 @@
+let minimo = $("nav").outerHeight()*2;
+
 $(document).ready( ()=>{
    
+  $(document).scroll(()=>{
+    const navegador = $("html").scrollTop();
+    let navmenu = $("nav");
+    if(navegador > minimo){
+        navmenu.addClass("sticky-top");
+    }
+    else {
+        navmenu.removeClass("sticky-top");
+    }
+  })
   
 })
 
