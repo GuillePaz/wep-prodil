@@ -1,15 +1,18 @@
 @font-face {
-    font-family: Saluti;
-    src: url('./assets/fonts/Saliti Bold.otf');
+    font-family: Salutis;
+    src: url('../assets/fonts/Saluti Bold.ttf');
 }
 
 body{
-   /* padding-top: 7.5rem;*/
-    background-color: #747373;
+   
+    background-color: #FCBF0F;
 
 }
+#body {
+    padding-top: 2.5rem;
+}
 #logo-prodil{
-    font-family: Saluti;
+    font-family: Salutis;
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.08em;
@@ -26,4 +29,23 @@ background-color: #FCBF0F ;
 }
 #logo-prodil h1,span{
     margin: 0;
+}
+
+.main {
+    padding: 2.5vmin 2.5vmax;
+    margin: 15pt 6.5vmax;
+    text-align: justify;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.36);
+    box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.36);
+}
+
+#title {
+    text-align: center;
+}
+nav {
+    -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.36);
+    box-shadow: 0px 0px 23px 1px rgba(0,0,0,0.36);
 }
