@@ -22,8 +22,10 @@
 
 
  include_once("navbar.php");
+ echo "<br>";
  include_once("core/core.php");
-    
+
+ include_once("footer.php");
    
 
     
