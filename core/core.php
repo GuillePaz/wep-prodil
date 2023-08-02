@@ -34,7 +34,7 @@ class Uri {
             }
         }
         else if(empty($control_file)){
-            include_once("./core/home.php");
+            include_once("./view/home.php");
         }
         else {
             include_once("./errors/404.php");

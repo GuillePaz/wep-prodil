@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg text-bg-light">
+<nav class=" navbar navbar-expand-lg text-bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
        
@@ -7,7 +7,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+      <div class="collapse navbar-collapse d-flex justify-content-end " id="navbarTogglerDemo02">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a id="inicio" class="nav-link" aria-current="page" href="<?php echo URL_HOST; ?>">INICIO</a>
