@@ -1,4 +1,4 @@
-<div class="card" style="">
+<div class="card">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3928.4049868560164!2d-69.3161814773242!3d10.065863996812718!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e87675b8d773fff%3A0xb2ebae2df6279f6!2sPRODIL%20GROUP!5e0!3m2!1ses-419!2sve!4v1690927832942!5m2!1ses-419!2sve" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   <div class="card-body">
     <h5 class="card-title">Dirección</h5>

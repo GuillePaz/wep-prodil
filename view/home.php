@@ -4,6 +4,7 @@ include_once("./view/home/slider.php");
 ?>
 
 <div class="rounded main">
+
 <?php include_once("./view/home/productos.php"); ?>
 
 <div class="text-white p-2" style="background-color: black;">
@@ -29,7 +30,7 @@ Una vez el diseño sea el esperado, levantaremos el presupuesto que necesitaras 
       </div>
     </div>
   </div>
-
+<hr>
 
 <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row align-items-center g-5 py-5">
@@ -48,7 +49,7 @@ Una vez el diseño sea el esperado, levantaremos el presupuesto que necesitaras 
     </div>
   </div>
 
-
+<hr>
 <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">

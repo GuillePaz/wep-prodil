@@ -28,10 +28,10 @@ body{
     padding: 6pt 30pt;
 background-color: #FCBF0F ;
 }
-
+/*
 #logo-prodil span {
 
-}
+}*/
 #logo-prodil h1,span{
     margin: 0;
 }
@@ -54,3 +54,32 @@ nav {
     -moz-box-shadow: 0px 0px var(--shadow-nav-px) 1px rgba(0,0,0,0.36);
     box-shadow: 0px 0px var(--shadow-nav-px) 1px rgba(0,0,0,0.36);
 }
+
+#empresa1 {
+    
+    background: #fff url("../assets/img/empresa/fondo.jpg") no-repeat ;
+    
+    background-size: 150% 200%;
+    
+}
+
+
+    
+  
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+    }
+    .asociados{
+       
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0.5rem;
+            grid-row-gap: 0.5rem;
+            
+    }
+    

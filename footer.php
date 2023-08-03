@@ -1,5 +1,5 @@
 
-  <footer class="row g-3 text-bg-dark d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+  <footer class=" g-3 text-bg-dark d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
     <div class="ps-4 col-md-4 d-flex align-items-center">
       
       <span class="text">© 2023 PRODIL GROUP, C,A</span>

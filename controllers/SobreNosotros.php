@@ -6,12 +6,9 @@ class SobreNosotros extends Controll{
     function __construct()
     {
         parent::__construct();
-        echo "sobre ";
+        $this->RENDER("sobrenosotros");
+        
     }
-    public function piso(){
-        echo "Piso";
-    }
-    public function GET(){
-        echo $_GET["a"];
-    }
+    
+    
 }
