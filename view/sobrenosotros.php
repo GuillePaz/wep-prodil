@@ -31,8 +31,15 @@ Somos un consoricio de empresas especialmente dedicadas a la ingeniería y const
     
   </div>
 
-  <div class="container main rounded asociados ">
-    <h1 class="toma2">Empresas Asociadas</h1>
-    <img src="" class="img-fluid" alt="">
+  <div class="container main rounded  ">
+    <h2 class="text-center mb-2">Empresas Asociadas</h2>
+    <div class="d-flex row gp-5 p-5">
+    <img src="<?php echo ASSETS ?>/img/empresa/constructora_lagoz.png" class="img-fluid col-6 px-5" alt="CONSTRUCTORA LAGOZ 2014">
+    <img src="<?php echo ASSETS ?>/img/empresa/icodi.png" class="img-fluid col-6 px-5" alt="ICODI 3000">
 
+    </div>
+   
+  </div>
+  <div class="container main rounded">
+  <?php include_once("./view/sobrenosotros/timeline.php"); ?>
   </div>
