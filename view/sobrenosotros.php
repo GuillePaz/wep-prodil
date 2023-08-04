@@ -40,6 +40,10 @@ Somos un consoricio de empresas especialmente dedicadas a la ingeniería y const
     </div>
    
   </div>
+
+  <?php /*
   <div class="container main rounded">
   <?php include_once("./view/sobrenosotros/timeline.php"); ?>
   </div>
+
+  */?>

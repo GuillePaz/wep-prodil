@@ -6,6 +6,7 @@
 :root{
     --shadow-main-px: 4px;
     --shadow-nav-px: 8px;
+ 
 }
 
 body{
@@ -82,4 +83,16 @@ nav {
             grid-row-gap: 0.5rem;
             
     }
-   
+   .img-icon {
+    width: 70px;
+    height: 70px;
+    margin-right: 0.8rem;
+   }
+  html {
+
+    height: 100%;
+
+    
+  }
+  
+ 

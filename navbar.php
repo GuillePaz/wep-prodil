@@ -22,6 +22,10 @@
 
             </ul>
           </li>
+          <li class="nav-item">
+            <a id="nuestros-productos" class="nav-link" aria-current="page" href="<?php echo URL_HOST; ?>/nuestros-productos">NUESTROS PRODUCTOS</a>
+          </li>
+          <?php /*
           <li class="nav-item dropdown">
             <a id="nuestros-productos" class="nav-link dropdown-toggle" href="<?php echo URL_HOST."/nuestros-productos"; ?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               NUESTROS PRODUCTOS
@@ -33,15 +37,20 @@
               <li><a class="dropdown-item" href="<?php echo URL_HOST."/nuestros-productos#construnow"; ?>">CONSTRUNOW</a></li>
               <li><a class="dropdown-item" href="<?php echo URL_HOST."/nuestros-productos#prodilmat"; ?>">PRODILMAT</a></li>
             </ul>
-          </li>
-         <!--  <li class="nav-item">
+          </li> 
+
+
+          <li class="nav-item">
             <a id="galeria" class="nav-link" aria-current="page" href="<?php echo URL_HOST."/galeria-proyectos"; ?>">GALERIA DE PROYECTOS</a>
-          </li> -->
+          </li> 
         </ul>
-        <!-- <form class="d-flex" role="search">
+        <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
-        </form> -->
+        </form> 
+
+       */ ?>
       </div>
     </div>
   </nav>
+

@@ -1,6 +1,6 @@
 <?php include_once("./core/constantes.php"); ?>
 <!DOCTYPE html>
-<html lang="es">
+<html langs="es">
 <head>
 
     <meta charset="UTF-8">
