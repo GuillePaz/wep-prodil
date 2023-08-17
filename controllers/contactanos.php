@@ -1,6 +1,6 @@
 <?php
 
-include_once("./core/controll.php");
+use Core\Controll;
 
 class Contactanos extends Controll{
     
@@ -9,6 +9,8 @@ class Contactanos extends Controll{
         parent::__construct();
         $this->RENDER("contactanos");
     }
-    
+    function POST(){
+        
+    }
     }
     

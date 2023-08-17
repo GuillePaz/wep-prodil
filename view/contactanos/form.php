@@ -1,4 +1,4 @@
-<form class="row g-3">
+<form class="row g-3" id="contactar">
   <div class="col-md-6">
     <label for="inputNombre" class="form-label">Nombre y Apellido: </label>
     <input type="text" class="form-control" id="inputNombre">

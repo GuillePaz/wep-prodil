@@ -1,4 +1,15 @@
+<?php 
+namespace Components;
 
+use Components\Component;
+
+  class Footer extends Component{
+    function __construct()
+    {
+      
+   
+?>
+  
   <footer class="g-3 text-bg-dark d-flex flex-wrap justify-content-between align-items-center py-3">
     <div class="ps-4 col-md-4 d-flex align-items-center">
       
@@ -14,7 +25,14 @@
     </ul>
   </footer>
 
-  <?php /*
+  <?php 
+  
+    }}
+  
+  
+  
+  
+  /*
 
 
 <div class="container px-4 py-5">

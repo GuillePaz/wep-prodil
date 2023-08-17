@@ -3,7 +3,7 @@
 include_once("./view/home/slider.php");
 ?>
 
-<div class="rounded main">
+<div class="rounded p-sm-3 p-1 my-4 mx-sm-4 mx-1 main ">
 
 <?php include_once("./view/home/productos.php"); ?>
 
@@ -16,7 +16,7 @@ include_once("./view/home/slider.php");
 <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        <img src="<?php echo ASSETS ?>/img/plano1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
       </div>
       <div class="col-lg-6">
         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Diseños a la medida</h1>
@@ -24,9 +24,11 @@ include_once("./view/home/slider.php");
 Una vez el diseño sea el esperado, levantaremos el presupuesto que necesitaras para ejecutar el proyecto. ¡Queremos de corazón, verte cumplir tus sueños! Construye Con nosotros.</p>
 </p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <?php /*
           <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
           <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-        </div>
+        */ ?>
+          </div>
       </div>
     </div>
   </div>
@@ -35,15 +37,17 @@ Una vez el diseño sea el esperado, levantaremos el presupuesto que necesitaras 
 <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        <img src="<?php echo ASSETS ?>/img/gas.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
       </div>
       <div class="col-lg-6">
         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Sistemas de Gas para Todos</h1>
         <p class="lead">Somos especialistas en sistemas de gasificación tanto para residencias como para industrias, realizamos instalaciones nuevas adaptadas a tus necesidades, detectamos fugas en sistemas ya instalados y hacemos las reparaciones pertinentes. Llamanos y te brindaremos el mejor servicio de gasificacion y detección de fugas.
 </p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <?php /*
           <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
           <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        */ ?>
         </div>
       </div>
     </div>
@@ -53,7 +57,7 @@ Una vez el diseño sea el esperado, levantaremos el presupuesto que necesitaras 
 <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        <img src="<?php echo ASSETS ?>/img/maquina.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
       </div>
       <div class="col-lg-6">
         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Construcción sin limites</h1>
@@ -64,8 +68,10 @@ Una vez el diseño sea el esperado, levantaremos el presupuesto que necesitaras 
 ¿Quieres un nuevo espacio para tu empresa? Estamos a la orden con ingenieros profesionales.
 En nuestras manos obtendrás el mejor servicio con seguridad, responsabilidad y confort.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <?php /*
           <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
           <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        */ ?>
         </div>
       </div>
     </div>

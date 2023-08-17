@@ -1,9 +1,9 @@
-<div class="text-bg-dark p-5 ">
+<div class="text-bg-dark p-sm-2 p-4 ">
     <h1>Nuestros Productos</h1>
     <br>
     <div class="parent ">
 
-        <div class="card p-3  border border-white bg-transparent text-white rounded-4 " >
+        <div class="card p-sm-3 p-1  border border-white bg-transparent text-white rounded-4 " >
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src="<?php echo PRODUCTOS."/procom.png"; ?>" class="img-fluid" alt="...">
@@ -17,7 +17,7 @@
             </div>
         </div>
 
-        <div class="card p-3 border border-white bg-transparent text-white rounded-4 ">
+        <div class="card p-sm-3 p-1 border border-white bg-transparent text-white rounded-4 ">
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src="<?php echo PRODUCTOS."/verigas.png"; ?>" class="img-fluid" alt="...">
@@ -35,7 +35,7 @@
 
     
 
-        <div class="card p-3 border border-white bg-transparent text-white rounded-4 " >
+        <div class="card p-sm-3 p-1 border border-white bg-transparent text-white rounded-4 " >
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src="<?php echo PRODUCTOS."/construnow.png"; ?>" class="img-fluid" alt="...">
@@ -49,7 +49,7 @@
             </div>
         </div>
 
-        <div class="card p-3 border border-white bg-transparent text-white rounded-4 ">
+        <div class="card p-sm-3 p-1 border border-white bg-transparent text-white rounded-4 ">
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src="<?php echo PRODUCTOS."/prodilmat.png"; ?>" class="img-fluid" alt="...">
@@ -65,7 +65,7 @@
         </div>
         </div>
 
-<div class="d-flex justify-content-center my-4">
+<div class="d-flex justify-content-center my-3">
 <a href="<?php echo URL_HOST."/nuestros-productos" ?>" class="btn btn-info">Más Información</a>
 
 </div>

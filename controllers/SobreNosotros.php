@@ -1,6 +1,6 @@
 <?php
 
-include_once("./core/controll.php");
+use Core\Controll;
 
 class SobreNosotros extends Controll{
     function __construct()

@@ -1,4 +1,6 @@
 <?php 
+namespace Core;
+
 interface iControl {
     public function GET();
     public function POST();
@@ -13,7 +15,7 @@ class Controll implements iControl {
             $this->GET();
         }
         else if (!empty($_POST)){
-
+            $this->POST();
         }
 
     }

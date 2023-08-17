@@ -1,5 +1,5 @@
 <?php 
-
+namespace Core;
 
 class Uri {
     function __construct()
@@ -47,6 +47,6 @@ class Uri {
        
     }
 }
-    new Uri;
+
 
 

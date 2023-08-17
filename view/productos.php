@@ -1,4 +1,4 @@
-<div class="main rounded container">
+<div class="rounded p-sm-3 p-1 my-4 mx-sm-4 mx-1 main ">
 
 <h2>Productos de PRODIL GROUP</h2>
 <br>
@@ -61,7 +61,7 @@
     <DIV class="accordion-header">
       <button class="accordion-button collapsed bg-dark text-white" type="button">
       <img class="img-icon" src="<?php echo PRODUCTOS."/prodilmat.png"?>" alt="">
-      <H3>PRODILMAT <span class="mx-5 position-absolute end-0 badge text-warning">Próximamente...</span></H3>
+      <H3>PRODILMAT <span class="mx-sm-5 position-absolute end-0 badge text-warning">Próximamente...</span></H3>
       </button>
       
 </DIV>

@@ -39,7 +39,7 @@ background-color: #FCBF0F ;
 
 .main {
     padding: 2.5vmin 2.5vmax;
-    margin: 15pt 6.5vmax;
+    /*smargin: 15pt 6.5vmax;*/
     
     background-color: white;
     -webkit-box-shadow: 0px 0px var(--shadow-main-px) 0px rgba(0,0,0,0.36);
@@ -95,4 +95,9 @@ nav {
     
   }
   
- 
+ .img-trans-left{
+    transform: rotateX(35deg) rotateY(45deg) rotateZ(0deg);
+ }
+ .img-trans-right{
+    transform: rotateX(35deg) rotateY(325deg) rotateZ(0deg);
+ }

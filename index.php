@@ -1,4 +1,18 @@
-<?php include_once("./core/constantes.php"); ?>
+<?php
+
+use Components\Footer;
+use Components\Navbar;
+use Core\Uri;
+
+
+
+include_once("constantes.php");
+include_once("load.php"); 
+
+
+
+
+?>
 <!DOCTYPE html>
 <html langs="es">
 <head>
@@ -21,18 +35,14 @@
     <?php
 
 
-
- include_once("navbar.php");
- echo "<br>";
- include_once("core/core.php");
-
- include_once("footer.php");
-   
-
+new Navbar;
+echo "<br>";
+ 
+new Uri;
     
-    
-    ?>
-    
+new Footer;
+
+?>
 </body>
 
 </html>
