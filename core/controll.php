@@ -4,7 +4,8 @@ namespace Core;
 interface iControl {
     public function GET();
     public function POST();
-    public function RENDER($f);
+    public function RENDER();
+    
 }
 class Controll implements iControl {
     function __construct()
@@ -27,9 +28,12 @@ class Controll implements iControl {
     function POST(){
         
     }
-    function RENDER($f){
+    function SP_RENDER($f){
         $file = "./view/".$f.".php";
         include($file);
+    }
+    function RENDER(){
+
     }
 }
 

@@ -6,9 +6,11 @@ class SobreNosotros extends Controll{
     function __construct()
     {
         parent::__construct();
-        $this->RENDER("sobrenosotros");
+        
         
     }
-    
+    function RENDER(){
+        $this->SP_RENDER("sobrenosotros");
+    }
     
 }

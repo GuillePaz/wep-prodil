@@ -1,11 +1,18 @@
-
+<div>
 <?php 
+
+
+
 include_once("./view/home/slider.php");
 ?>
+<div id="form-slider"></div>
+</div>
 
-<div class="rounded p-sm-3 p-1 my-4 mx-sm-4 mx-1 main ">
+<br>
+<br>
+<br>
 
-<?php include_once("./view/home/productos.php"); ?>
+<?php /*include_once("./view/home/productos.php"); ?>
 
 <div class="text-white p-2" style="background-color: black;">
 <h5>Somos Especialistas en Arquitectura, Construcción e Ingeniería.</h5>
@@ -27,7 +34,7 @@ Una vez el diseño sea el esperado, levantaremos el presupuesto que necesitaras 
           <?php /*
           <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
           <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-        */ ?>
+        
           </div>
       </div>
     </div>
@@ -44,10 +51,10 @@ Una vez el diseño sea el esperado, levantaremos el presupuesto que necesitaras 
         <p class="lead">Somos especialistas en sistemas de gasificación tanto para residencias como para industrias, realizamos instalaciones nuevas adaptadas a tus necesidades, detectamos fugas en sistemas ya instalados y hacemos las reparaciones pertinentes. Llamanos y te brindaremos el mejor servicio de gasificacion y detección de fugas.
 </p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <?php /*
+         
           <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
           <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-        */ ?>
+        
         </div>
       </div>
     </div>
@@ -68,10 +75,10 @@ Una vez el diseño sea el esperado, levantaremos el presupuesto que necesitaras 
 ¿Quieres un nuevo espacio para tu empresa? Estamos a la orden con ingenieros profesionales.
 En nuestras manos obtendrás el mejor servicio con seguridad, responsabilidad y confort.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <?php /*
+        
           <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
           <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-        */ ?>
+        
         </div>
       </div>
     </div>
@@ -79,7 +86,7 @@ En nuestras manos obtendrás el mejor servicio con seguridad, responsabilidad y 
 
 
 
+  */?>
 
 
-</div>
 

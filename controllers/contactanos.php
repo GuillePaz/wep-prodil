@@ -7,10 +7,13 @@ class Contactanos extends Controll{
     function __construct()
     {
         parent::__construct();
-        $this->RENDER("contactanos");
+        
     }
     function POST(){
         
+    }
+    function RENDER(){
+        $this->SP_RENDER("contactanos");
     }
     }
     

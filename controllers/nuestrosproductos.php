@@ -7,8 +7,10 @@ class NuestrosProductos extends Controll{
     function __construct()
     {
         parent::__construct();
-        $this->RENDER("productos");
+        
     }
-    
+    function RENDER(){
+        $this->SP_RENDER("productos");
+    }
     }
     

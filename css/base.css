@@ -101,3 +101,29 @@ nav {
  .img-trans-right{
     transform: rotateX(35deg) rotateY(325deg) rotateZ(0deg);
  }
+
+ #form-slider {
+   /* position: absolute !important;
+    background-color: rgba(255,0,0,0.3);
+    bottom: 0;
+    width: 100%;
+    border-bottom-right-radius: 100%;
+    height: 35%;
+    box-shadow: 0 0 0 #d9534f*/
+    width: 100%;
+    height: 35%;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+#form-slider::before{
+    content: "";
+    display: block;
+    width: 240%;
+    height: 240%;
+    position: absolute;
+    border-radius: 80%;
+    bottom: 0;
+    right: -1.5em;
+    box-shadow: 180px 180px 0 0 red
+}

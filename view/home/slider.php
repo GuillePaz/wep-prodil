@@ -7,6 +7,14 @@
       </div>
       
     </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/img/slider/Sinstagram.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        
+      </div>
+      
+    </div>
     
   </div>
   <button class="carousel-control-prev" typse="button" data-bs-target="#carouselExample" data-bs-slide="prev">
