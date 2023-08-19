@@ -1,6 +1,5 @@
 <div>
-<?php 
-
+<?php
 
 
 include_once("./view/home/slider.php");
@@ -12,7 +11,10 @@ include_once("./view/home/slider.php");
 <br>
 <br>
 
-<?php /*include_once("./view/home/productos.php"); ?>
+<?php 
+
+
+/*include_once("./view/home/productos.php"); ?>
 
 <div class="text-white p-2" style="background-color: black;">
 <h5>Somos Especialistas en Arquitectura, Construcción e Ingeniería.</h5>

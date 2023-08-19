@@ -3,25 +3,25 @@
     src: url('../assets/fonts/Saluti Bold.ttf');
 }
 
-:root{
+:root {
     --shadow-main-px: 4px;
     --shadow-nav-px: 8px;
- 
+
 }
 
-body{
-   
+body {
+    min-height: 100%;
     background-color: #FCBF0F;
 
 }
+
 #body {
     padding-top: 2.5rem;
 }
+
+/*
 #logo-prodil{
-    font-family: Salutis;
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: 0.08em;
+    font-family: Salutis;font-weight: 700;text-align: center;letter-spacing: 0.08em;
 }
 
 #logo-prodil h1{
@@ -29,81 +29,83 @@ body{
     padding: 6pt 30pt;
 background-color: #FCBF0F ;
 }
-/*
-#logo-prodil span {
 
-}*/
 #logo-prodil h1,span{
     margin: 0;
 }
-
+*/
 .main {
     padding: 2.5vmin 2.5vmax;
     /*smargin: 15pt 6.5vmax;*/
-    
+
     background-color: white;
-    -webkit-box-shadow: 0px 0px var(--shadow-main-px) 0px rgba(0,0,0,0.36);
-    -moz-box-shadow: 0px 0px var(--shadow-main-px) 0px rgba(0,0,0,0.36);
-    box-shadow: 0px 0px var(--shadow-main-px) 0px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 0px 0px var(--shadow-main-px) 0px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px 0px var(--shadow-main-px) 0px rgba(0, 0, 0, 0.36);
+    box-shadow: 0px 0px var(--shadow-main-px) 0px rgba(0, 0, 0, 0.36);
 }
 
 #title {
     text-align: center;
 }
+
 nav {
-    -webkit-box-shadow: 0px 0px var(--shadow-nav-px) 1px rgba(0,0,0,0.36);
-    -moz-box-shadow: 0px 0px var(--shadow-nav-px) 1px rgba(0,0,0,0.36);
-    box-shadow: 0px 0px var(--shadow-nav-px) 1px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 0px 0px var(--shadow-nav-px) 1px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px 0px var(--shadow-nav-px) 1px rgba(0, 0, 0, 0.36);
+    box-shadow: 0px 0px var(--shadow-nav-px) 1px rgba(0, 0, 0, 0.36);
 }
 
 #empresa1 {
-    
-    background: #fff url("../assets/img/empresa/fondo.jpg") no-repeat ;
-    
+
+    background: #fff url("../assets/img/empresa/fondo.jpg") no-repeat;
+
     background-size: 150% 200%;
-    
+
 }
 
 
-    
-  
+
+
 .parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
-    }
- .asociados{
-       
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: 1fr;
-            grid-column-gap: 0.5rem;
-            grid-row-gap: 0.5rem;
-            
-    }
-   .img-icon {
+}
+
+.asociados {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+
+}
+
+.img-icon {
     width: 70px;
     height: 70px;
     margin-right: 0.8rem;
-   }
-  html {
+}
+
+html {
 
     height: 100%;
 
-    
-  }
-  
- .img-trans-left{
-    transform: rotateX(35deg) rotateY(45deg) rotateZ(0deg);
- }
- .img-trans-right{
-    transform: rotateX(35deg) rotateY(325deg) rotateZ(0deg);
- }
 
- #form-slider {
-   /* position: absolute !important;
+}
+
+.img-trans-left {
+    transform: rotateX(35deg) rotateY(45deg) rotateZ(0deg);
+}
+
+.img-trans-right {
+    transform: rotateX(35deg) rotateY(325deg) rotateZ(0deg);
+}
+
+#form-slider {
+    /* position: absolute !important;
     background-color: rgba(255,0,0,0.3);
     bottom: 0;
     width: 100%;
@@ -116,14 +118,11 @@ nav {
     position: absolute;
     bottom: 0;
 }
-#form-slider::before{
-    content: "";
-    display: block;
-    width: 240%;
-    height: 240%;
+.c-btn {
+    right: 0;
+}
+.footer-p {
     position: absolute;
-    border-radius: 80%;
     bottom: 0;
-    right: -1.5em;
-    box-shadow: 180px 180px 0 0 red
+    width: 100%;
 }

@@ -1,33 +1,34 @@
-<?php 
+<?php
+
 namespace Components;
 
 use Components\Component;
 
-  class Footer extends Component{
-    function __construct()
-    {
-      
-   
+class Footer extends Component
+{
+  function __construct()
+  {
+
+
 ?>
-  
-  <footer class="g-3 text-bg-dark d-flex flex-wrap justify-content-between align-items-center py-3">
-    <div class="ps-4 col-md-4 d-flex align-items-center">
-      
-      <span class="text">© 2023 PRODIL GROUP, C,A</span>
-   
 
-      
-    </div>
+    <footer class="g-3 text-bg-dark d-flex flex-wrap justify-content-between align-items-center py-3">
+      <div class="ps-4 col-md-4 d-flex align-items-center">
+
+        <span class="text">© 2023 PRODIL GROUP, C,A</span>
+
+      </div>
 
 
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="me-3"><a class="" href="#"><i class="bi bi-instagram"></i></a></li>
-    </ul>
-  </footer>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="me-3"><a class="" href="#"><i class="bi bi-instagram"></i></a></li>
+      </ul>
+    </footer>
 
-  <?php 
-  
-    }}
+<?php
+
+  }
+}
   
   
   

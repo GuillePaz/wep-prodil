@@ -1,44 +1,48 @@
 <?php
+
 namespace Components;
 
 use Components\Component;
+use Components\Logo;
 
-  class Navbar extends Component{
-    function __construct()
-    {
-      
-   
-    
-  
+class Navbar extends Component
+{
+  function __construct()
+  {
+
+
+
+
 ?>
-<nav class=" navbar navbar-expand-lg text-bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-       
-        <div id="logo-prodil"> <h1>PRODIL GROUP</h1><span>INGENIERIA & ARQUITECTURA</span></div>
-    </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse  " id="navbarTogglerDemo02">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a id="inicio" class="nav-link" aria-current="page" href="<?php echo URL_HOST; ?>">INICIO</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a id="empresa" class="nav-link dropdown-toggle" href="<?php echo URL_HOST."/empresa"; ?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              EMPRESA
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="<?php echo URL_HOST."/sobre-nosotros"; ?>">SOBRE NOSOTROS</a></li>
-              <li><a class="dropdown-item" href="<?php echo URL_HOST."/contactanos"; ?>">CONTACTANOS</a></li>
+    <nav class=" navbar navbar-expand-lg text-bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <?php
+            new Logo;
+          ?>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  " id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a id="inicio" class="nav-link" aria-current="page" href="<?php echo URL_HOST; ?>">INICIO</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a id="empresa" class="nav-link dropdown-toggle" href="<?php echo URL_HOST . "/empresa"; ?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                EMPRESA
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="<?php echo URL_HOST . "/sobre-nosotros"; ?>">SOBRE NOSOTROS</a></li>
+                <li><a class="dropdown-item" href="<?php echo URL_HOST . "/contactanos"; ?>">CONTACTANOS</a></li>
 
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a id="nuestros-productos" class="nav-link" aria-current="page" href="<?php echo URL_HOST; ?>/nuestros-productos">NUESTROS PRODUCTOS</a>
-          </li>
-          <?php /*
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a id="nuestros-productos" class="nav-link" aria-current="page" href="<?php echo URL_HOST; ?>/nuestros-productos">NUESTROS PRODUCTOS</a>
+            </li>
+            <?php /*
           <li class="nav-item dropdown">
             <a id="nuestros-productos" class="nav-link dropdown-toggle" href="<?php echo URL_HOST."/nuestros-productos"; ?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               NUESTROS PRODUCTOS
@@ -63,11 +67,11 @@ use Components\Component;
         </form> 
 
        */ ?>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
 <?php
- 
-}
+
+  }
 }

@@ -3,8 +3,8 @@
 <div class="p-5 mb-4 bg-body-tertiary rounded-3" id="empresa1">
       <div class="container-fluid pb-5">
         <h1 class="display-5 fw-bold">Sobre Nosotros</h1>
-        <p class="col-md-8 fs-4">br
-Somos un consoricio de empresas especialmente dedicadas a la ingeniería y construcción. <br>
+        <p class="col-md-8 fs-4">
+Somos un consorcicio de empresas especialmente dedicadas a la ingeniería y construcción. <br>
 "Tu lo Sueñas y Nosotros lo Hacemos Realidad"</p>
         
       </div>
@@ -22,7 +22,7 @@ Somos un consoricio de empresas especialmente dedicadas a la ingeniería y const
       <div class="col-sm-6">
         <div class="h-100 p-5 bg-body-tertiary border rounded-3">
           <h2>Visión</h2>
-          <p>Empresa comprometida con cada cliente para dar satisfacción en lograr cada proyecto con ingenio, calidad y confianza; creando lugares que mejoren la experiencia humana</p>
+          <p>Empresa comprometida con cada cliente para dar satisfacción en lograr cada proyecto con ingenio, calidad y confianza; creando lugares que mejoren la experiencia humana.</p>
           
         </div>
       </div>
