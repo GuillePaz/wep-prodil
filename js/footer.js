@@ -1,9 +1,11 @@
+export function footer(){
 
-html = $("html");
-body = $("body");
-new ResizeSensor(body,footer);
 
-function footer(){
+const html = $("html");
+const body = $("body");
+new ResizeSensor(body,footerD);
+
+function footerD(){
     if(html.outerHeight() >= body.outerHeight()){
         $("footer").addClass("footer-p");
     }
@@ -11,5 +13,6 @@ function footer(){
         $("footer").removeClass("footer-p");
     }
 }
+}
 
-footer();
+export default footer;

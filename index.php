@@ -32,7 +32,7 @@ include_once("load.php");
     <script type="text/javascript" src="<?php echo LIBRARIES ?>/ResizeSensor.js"></script>
     <script type="text/javascript" src="<?php echo LIBRARIES ?>/ElementQueries.js"></script>
 
-    <script type="text/javascript" src="<?php echo URL_HOST ?>/js/main.js"></script>
+    <script type="module" src="<?php echo URL_HOST ?>/js/main.js"></script>
    
 </head>
 <body>

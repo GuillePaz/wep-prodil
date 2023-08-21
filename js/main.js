@@ -1,17 +1,20 @@
-function loadScript(url) {
+import { footer } from "./footer.js";
+import { ajaxContacto } from "./ajaxContacto.js";
 
-  var head = document.getElementsByTagName('head')[0];
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src = "./js/" + url + ".js";
-  head.appendChild(script);
-
-}
-
-
+footer();
 $(document).ready(function () {
+
+
+
+  /*function loadScript(url) {
   
-loadScript("footer");
+    var head = document.getElementsByTagName('head')[0];
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = "./js/" + url + ".js";
+    head.appendChild(script);
+  
+  } */
 
 
 
@@ -47,8 +50,14 @@ var URL = $(location).attr('href').substring($(location).attr('href').lastIndexO
 
 if (URL == "contactanos") {
 
-  loadScript("ajaxContacto");
+  ajaxContacto();
 }
 //loadScript("navbar");
+//loadScript("footer");
+
+
+
 
 });
+
+

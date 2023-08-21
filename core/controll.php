@@ -6,6 +6,7 @@ interface iControl {
     public function POST();
     public function RENDER();
     
+    
 }
 class Controll implements iControl {
     function __construct()
@@ -35,6 +36,7 @@ class Controll implements iControl {
     function RENDER(){
 
     }
+    
 }
 
 

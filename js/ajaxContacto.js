@@ -1,10 +1,14 @@
-$("#contactar").submit(function (e) { 
-    e.preventDefault();
-    
-});
-$.post("./", data,
-    function (data, textStatus, jqXHR) {
+export function ajaxContacto(){
+    $("#contactar").submit(function (e) { 
+        e.preventDefault();
         
-    },
-    "dataType"
-);
+    });
+    $.post("./", data,
+        function (data, textStatus, jqXHR) {
+            
+        },
+        "dataType"
+    );
+}
+
+export default ajaxContacto;

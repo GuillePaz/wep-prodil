@@ -32,9 +32,11 @@ class Uri
                     include_once("./errors/404.php");
                     die;
                 }
-
+                
+            }else{
+                $page->RENDER();
             }
-            $page->RENDER();
+            
         } else if (empty($control_file)) {
             include_once("./view/home.php");
         } else {
