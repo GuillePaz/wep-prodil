@@ -14,7 +14,7 @@ class Navbar extends Component
 
 
 ?>
-    <nav class=" navbar navbar-expand-lg text-bg-light">
+    <nav class="sticky-top navbar navbar-expand-lg text-bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <?php
@@ -29,6 +29,9 @@ class Navbar extends Component
             <li class="nav-item">
               <a id="inicio" class="nav-link" aria-current="page" href="<?php echo URL_HOST; ?>">INICIO</a>
             </li>
+            <li><a class="nav-link" aria-current="page" href="<?php echo URL_HOST . "/sobre-nosotros"; ?>">SOBRE NOSOTROS</a></li>
+               
+            <?php /*
             <li class="nav-item dropdown">
               <a id="empresa" class="nav-link dropdown-toggle" href="<?php echo URL_HOST . "/empresa"; ?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 EMPRESA
@@ -39,6 +42,7 @@ class Navbar extends Component
 
               </ul>
             </li>
+            */ ?>
             <li class="nav-item">
               <a id="nuestros-productos" class="nav-link" aria-current="page" href="<?php echo URL_HOST; ?>/nuestros-productos">NUESTROS PRODUCTOS</a>
             </li>
@@ -67,6 +71,9 @@ class Navbar extends Component
         </form> 
 
        */ ?>
+ <li><a class="nav-link" aria-current="page" href="<?php echo URL_HOST . "/contactanos"; ?>">CONTACTANOS</a></li>
+
+
         </div>
       </div>
     </nav>

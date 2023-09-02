@@ -15,10 +15,10 @@ Barquisimeto, Municipio Iribarren, Estado Lara, Venezuela.</p>
     <li class="list-group-item"><div class="container">
   <div class="row align-items-start">
     <div class="col">
-      Ing. Alberto Meléndez: +58 426-5520483
+      <b>Ing. Alberto Meléndez:</b> +58 426-5520483
     </div>
     <div class="col">
-      Ing. Aníbal Noguera: +58 424-5507226
+      <b>Ing. Aníbal Noguera:</b> +58 424-5507226
     </div>
   </div>
 </div></li>
@@ -26,10 +26,10 @@ Barquisimeto, Municipio Iribarren, Estado Lara, Venezuela.</p>
 <li class="list-group-item"><div class="container">
   <div class="row align-items-start">
     <div class="col">
-      Oficina: 0251-2324983
+    <b>Oficina:</b> 0251-2324983
     </div>
     <div class="col">
-    Whatsapp: +58 416-6552182
+    <b>Whatsapp:</b> +58 416-6552182
     </div>
   </div>
 </div></li>

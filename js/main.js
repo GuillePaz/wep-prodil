@@ -26,7 +26,7 @@ let bodyH = $("body").outerHeight(true);
    if(htmlH>bodyH){
     $("footer").css("margin-top",(htmlH-bodyH+(footerH/2))+"px");
    }*/
-$(document).scroll(() => {
+/*$(document).scroll(() => {
   const navegador = $("html").scrollTop();
   let navmenu = $("nav");
   if (navegador < minimo) {
@@ -35,7 +35,7 @@ $(document).scroll(() => {
   else {
     navmenu.removeClass("sticky-top");
   }
-});
+});*/
 
 
 
