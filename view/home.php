@@ -1,11 +1,12 @@
 <div>
 <?php
 
+use Components\Slider;
 
-include_once("./view/home/slider.php");
+
+new Slider("SInstagram.jpg","SInstagram.jpg","SInstagram.jpg");
 ?>
-<div id="form-slider"></div>
-</div>
+
 
 <br>
 <br>

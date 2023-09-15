@@ -2,21 +2,29 @@
 
 namespace Core;
 
+use Core\Math\ConvertBytes;
+
+$C=new ConvertBytes;
+
 class File
 {
     private $path;
     private $filename;
+    private $limit_size;
 
-    function __construct($carpeta_temporal, $carpeta_galeria = "", $carpeta_objetiva = "")
+    function __construct()
     {
         $this->path = array(
-            "TEMP" => "$carpeta_temporal",
-            "GALLERY" => $carpeta_galeria,
-            "TARGET" => $carpeta_objetiva
+            "TEMP" => __DIR__."/temp",
+            "GALLERY" => __DIR__."/assets/gallery",
+            "TARGET" => __DIR__."/assets/"
         );
+        $this->limit_size=$C::MBToByte(5);
     }
-    function selectFile($filename,){
+    function selectFile($filename,string $target = null){
+        if($target!=null){
 
+        }
     }
     function moveToGalery(){
 
