@@ -3,7 +3,7 @@
 use Components\Footer;
 use Components\Navbar;
 use Core\Uri;
-
+use GraphQL\GraphQL;
 
 
 include_once("constantes.php");
