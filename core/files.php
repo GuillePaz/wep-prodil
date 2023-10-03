@@ -19,7 +19,7 @@ class File
             "GALLERY" => __DIR__."/assets/gallery",
             "TARGET" => __DIR__."/assets/"
         );
-        $this->limit_size=$C::MBToByte(5);
+        
     }
     function selectFile($filename,string $target = null){
         if($target!=null){

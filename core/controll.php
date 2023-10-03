@@ -2,36 +2,36 @@
 namespace Core;
 
 interface iControl {
-    public function GET();
     public function POST();
     public function RENDER();
     
     
 }
 class Controll implements iControl {
-    function __construct()
+    public $parameters;
+    function __construct($p = null)
     {
-        
-
+        $this->parameters = $p;
+/*
         if(!empty($_GET)){
-            $this->GET();
+            $this->GET("");
         }
         else if (!empty($_POST)){
             $this->POST();
-        }
+        }*/
 
     }
 
-    function GET(){
+    function GET($id){
 
     }
 
     function POST(){
         
     }
-    function SP_RENDER($f){
-        $file = "./view/".$f.".php";
-        include($file);
+    function SP_RENDER($f,$obj = null){
+
+        include("./view/".$f.".php");
     }
     function RENDER(){
 

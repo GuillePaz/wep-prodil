@@ -6,7 +6,7 @@ class Slider {
     {
         $this->Start();
         foreach($imgs as $img){
-           
+           $this->Page($img);
         }
         $this->Finish();
     }   
