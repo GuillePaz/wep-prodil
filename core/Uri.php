@@ -16,9 +16,9 @@ class Uri
         $page = $uri[0] ?? null;
         if(isset($uri[0])) {
             unset($uri[0]);
-            $a ="";
+            $a =array();
             foreach($uri as $u){
-                $a []= $u; 
+                $a[] = $u; 
             }
             $uri = $a;
         }

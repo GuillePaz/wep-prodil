@@ -6,3 +6,8 @@ define("ASSETS",URL_HOST."/assets");
 define("STYLES",URL_HOST."/css");
 define("LIBRARIES",URL_HOST."/libs");
 define("PRODUCTOS",ASSETS."/img/prodilproducts");
+
+//DATABASE
+define("USER_ROOT","root");
+define("ROOT_PSWD","");
+define("DB","");
