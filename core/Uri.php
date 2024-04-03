@@ -11,6 +11,7 @@ class Uri
         if (isset($_GET["weawzahzcurqvznyqhdxtdiethizdh"])) { // get de la variable en .htaccess
             $uri = explode("/", $_GET["weawzahzcurqvznyqhdxtdiethizdh"]);
             unset($_GET["weawzahzcurqvznyqhdxtdiethizdh"]);
+        
         }
 
         $page = $uri[0] ?? null;
@@ -22,12 +23,13 @@ class Uri
             }
             $uri = $a;
         }
-        
+    
         $this->controll($page,$uri);
     }
 
-    function controll(string $control_file = null, $parameters)
+    function controll(string $control_file = null, $parameters) //
     {
+        
         $control_file = str_replace("-", "", $control_file);
         if (!empty($control_file) && file_exists("./controllers/$control_file.php")) {
             include_once("./controllers/$control_file.php");

@@ -3,7 +3,6 @@
 namespace Components;
 
 use Components\Component;
-use Components\Logo;
 
 class Navbar extends Component
 {
@@ -17,9 +16,7 @@ class Navbar extends Component
     <nav class="sticky-top navbar navbar-expand-lg text-bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <?php
-            new Logo;
-          ?>
+          <img src="<?php echo IMG_PRODIL."/logo_prodilgroup.svg"; ?>" width="180" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

@@ -38,14 +38,16 @@ include_once("load.php");
 <body>
 
     <?php
-
-
 new Navbar;
-echo "<br>";
+
+    new Uri;
+
+
+    echo "<br>";
  
-new Uri;
-    
-new Footer;
+    new Footer;
+
+
 
 ?>
 </body>

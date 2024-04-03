@@ -12,6 +12,7 @@ class Controll implements iControl {
     function __construct($p = null)
     {
         $this->parameters = $p;
+
 /*
         if(!empty($_GET)){
             $this->GET("");
@@ -30,8 +31,12 @@ class Controll implements iControl {
         
     }
     function SP_RENDER($f,$obj = null){
-
-        include("./view/".$f.".php");
+        if(file_exists("./view/$f.php")){
+            include("./view/".$f.".php");
+        }else {
+            error();
+        }
+        
     }
     function RENDER(){
 
